@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asking About Age - RBS ESL</title>
+    <link rel="stylesheet" href="../css/style.css"> <!-- Path relative to its location -->
+</head>
+<body>
+    <header>
+        <h1>RBS ESL_LEARNING & EMPOWERED BY GEMINI STUDIOS</h1>
+    </header>
+
+    <main>
+        <div class="activity-container">
+            <div class="activity-header">
+                <h2>Asking About Age (SB p17, Ex 6)</h2>
+            </div>
+
+            <div class="instructions">
+                <p>Look at the picture. Answer the question: "How old is [Name]?" Click the correct age.</p>
+            </div>
+
+            <div id="age-question-area">
+                <h3 id="age-question-text"></h3>
+            </div>
+
+            <div id="character-age-display" class="item-display">
+                <img id="character-age-image" src="../assets/images/ui/placeholder_image.png" alt="Character">
+            </div>
+
+            <div id="age-options-area" class="button-choices">
+                <!-- Age choice buttons dynamically inserted by JS -->
+            </div>
+
+            <div id="feedback-area" role="alert" aria-live="polite"></div>
+
+            <button id="next-age-question-btn" class="ready-button hidden">Next Person</button>
+        </div>
+        <p class="back-link-container"><a href="../index.html" class="ready-button back-button">Back to Activities</a></p>
+    </main>
+
+    <footer>
+        <p>&copy; 2023-2024 RBS ESL_LEARNING & EMPOWERED BY GEMINI STUDIOS. All Rights Reserved.</p>
+    </footer>
+
+    <audio id="correct-sound" src="../assets/audio/correct.mp3" preload="auto"></audio>
+    <audio id="incorrect-sound" src="../assets/audio/incorrect.mp3" preload="auto"></audio>
+
+    <script src="../js/activities/age.js"></script>
+</body>
+</html>

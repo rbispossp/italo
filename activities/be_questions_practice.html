@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>'Be' Questions & 'Who' - RBS ESL</title>
+    <link rel="stylesheet" href="../css/style.css"> <!-- Path relative to its location -->
+</head>
+<body>
+    <header>
+        <h1>RBS ESL_LEARNING & EMPOWERED BY GEMINI STUDIOS</h1>
+    </header>
+
+    <main>
+        <div class="activity-container">
+            <div class="activity-header">
+                <h2>'Be' Questions, Short Answers & 'Who' (SB p19, Ex 5, 6, 7)</h2>
+            </div>
+
+            <!-- Part 1: Complete questions with Am, Is, Are (Ex 5) -->
+            <section id="complete-be-questions-section">
+                <div class="instructions">
+                    <p><strong>Part 1: Complete the questions.</strong> Click 'Am', 'Is', or 'Are'.</p>
+                </div>
+                <div id="cbq-exercise-area" style="min-height: 100px; margin-bottom: 10px;">
+                    <!-- Question will be loaded here by JS -->
+                </div>
+                <div id="cbq-feedback" class="feedback-subsection" role="alert" aria-live="polite"></div>
+                <button id="next-cbq-btn" class="ready-button hidden" style="margin-top: 10px;">Next</button>
+            </section>
+
+            <hr style="margin: 30px 0;">
+
+            <!-- Part 2: Write the Short Answers (Ex 6) - Simplified to Multiple Choice -->
+            <section id="short-answers-section" class="hidden">
+                <div class="instructions">
+                    <p><strong>Part 2: Choose the correct short answer.</strong></p>
+                </div>
+                <div id="sa-exercise-area" style="min-height: 100px; margin-bottom: 10px;">
+                    <p id="sa-question-text" style="font-size: 1.2em; margin-bottom: 10px; min-height:1.5em;"></p>
+                    <!-- Answer options will be loaded here by JS -->
+                </div>
+                <div id="sa-feedback" class="feedback-subsection" role="alert" aria-live="polite"></div>
+                <button id="next-sa-btn" class="ready-button hidden" style="margin-top: 10px;">Next</button>
+            </section>
+
+            <hr style="margin: 30px 0;">
+
+            <!-- Part 3: Write 'Who' Questions (Ex 7) - Simplified to Multiple Choice / Build -->
+            <section id="who-questions-section" class="hidden">
+                <div class="instructions">
+                    <p><strong>Part 3: Form the 'Who' question.</strong></p>
+                </div>
+                <div id="wq-exercise-area" style="min-height: 120px; margin-bottom: 10px;">
+                    <p style="font-size: 1.1em;">Answer: <strong id="wq-answer-text"></strong></p>
+                    <p id="wq-question-prompt" style="font-size: 1.2em; margin-top:10px; margin-bottom: 10px; min-height:1.5em;"></p>
+                    <!-- Question building/options will be loaded here by JS -->
+                </div>
+                <div id="wq-feedback" class="feedback-subsection" role="alert" aria-live="polite"></div>
+                <button id="next-wq-btn" class="ready-button hidden" style="margin-top: 10px;">Next</button>
+            </section>
+
+            <div id="activity-completion-message" class="hidden" style="margin-top:20px; font-size: 1.3em; color: green; font-weight: bold;">
+                Well done! You've completed all parts of this practice!
+            </div>
+        </div>
+        <p style="text-align: center; margin-top: 30px;"><a href="../index.html" class="ready-button back-button">Back to Activities</a></p>
+    </main>
+
+    <footer>
+        <p>&copy; 2023-2024 RBS ESL_LEARNING & EMPOWERED BY GEMINI STUDIOS. All Rights Reserved.</p>
+    </footer>
+
+    <audio id="correct-sound" src="../assets/audio/correct.mp3" preload="auto"></audio>
+    <audio id="incorrect-sound" src="../assets/audio/incorrect.mp3" preload="auto"></audio>
+
+    <script src="../js/activities/be_questions_practice.js"></script>
+</body>
+</html>

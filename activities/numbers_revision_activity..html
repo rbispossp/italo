@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numbers (Revision) - RBS ESL</title>
+    <link rel="stylesheet" href="../css/style.css"> <!-- Path relative to its location -->
+</head>
+<body>
+    <header>
+        <h1>RBS ESL_LEARNING & EMPOWERED BY GEMINI STUDIOS</h1>
+    </header>
+
+    <main>
+        <div class="activity-container">
+            <div class="activity-header">
+                <h2>Numbers (Revision - SB p16, Ex 2a)</h2>
+            </div>
+
+            <div class="instructions">
+                <p>Listen and click the correct number.</p>
+                <p class="cd-play-prompt">You will need to play <strong>CD1, Track 21</strong> for this part.</p>
+                <button id="ready-to-listen-btn" class="ready-button">I'm Ready to Listen!</button>
+            </div>
+
+            <div id="item-area" style="margin-bottom: 15px;">
+                <!-- Item name or image could be displayed here if desired in future -->
+                <p id="item-name-prompt" style="font-size: 1.3em; font-weight:bold; min-height: 1.5em;"></p>
+            </div>
+
+            <div id="number-options-area" class="number-options">
+                <!-- Number choice buttons dynamically inserted by JS -->
+            </div>
+
+            <div id="feedback-area" role="alert" aria-live="polite"></div>
+
+            <button id="next-item-btn" class="ready-button hidden" style="margin-top: 20px;">Next Item</button>
+        </div>
+        <p style="text-align: center; margin-top: 30px;"><a href="../index.html" class="ready-button back-button">Back to Activities</a></p>
+    </main>
+
+    <footer>
+        <p>&copy; 2023-2024 RBS ESL_LEARNING & EMPOWERED BY GEMINI STUDIOS. All Rights Reserved.</p>
+    </footer>
+
+    <audio id="correct-sound" src="../assets/audio/correct.mp3" preload="auto"></audio>
+    <audio id="incorrect-sound" src="../assets/audio/incorrect.mp3" preload="auto"></audio>
+
+    <script src="../js/activities/numbers.js"></script>
+</body>
+</html>

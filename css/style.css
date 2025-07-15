@@ -1,0 +1,651 @@
+/* RBS ESL_LEARNING & EMPOWERED BY GEMINI STUDIOS */
+/* css/style.css - Complete and Updated */
+
+/* Global Reset & Box Sizing */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Global Styles */
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f8ff; /* Light Alice Blue - gentle background */
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header & Footer */
+header {
+    background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%); /* Light Pink/Peach gradient */
+    color: white;
+    padding: 1.5rem 1rem;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+header p {
+    margin: 0.2rem 0 0;
+    font-size: 1rem;
+}
+
+main {
+    flex-grow: 1;
+    padding: 20px;
+    max-width: 900px; /* Max width for content area */
+    margin: 20px auto; /* Centering content */
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.05);
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+    margin-top: auto; /* Pushes footer to bottom with flex */
+}
+
+/* Landing Page Specific */
+.landing-page h2 {
+    text-align: center;
+    color: #d9534f; /* Pinkish color from palette */
+    margin-bottom: 20px;
+}
+.landing-page nav ul {
+    list-style: none;
+    padding: 0;
+}
+.landing-page nav ul li {
+    margin-bottom: 10px;
+    background-color: #e7f3fe; /* Light blue background for links */
+    border-left: 5px solid #6ba8e9; /* Blue accent */
+    border-radius: 4px;
+    overflow: hidden; /* For border-radius */
+}
+.landing-page nav ul li a {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #2c3e50; /* Darker blue-grey text */
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.landing-page nav ul li a:hover,
+.landing-page nav ul li a:focus {
+    background-color: #d0e8fd;
+    transform: translateX(5px);
+    outline: none; /* Custom focus below */
+    text-decoration: none;
+}
+.landing-page nav ul li a:focus-visible { /* More specific focus for keyboard */
+    box-shadow: 0 0 0 2px #0056b3 inset;
+}
+
+
+/* General Activity Page Styles */
+.activity-container {
+    text-align: center;
+}
+
+.activity-header {
+    margin-bottom: 30px;
+    border-bottom: 2px solid #ffced3; /* Light pink accent for header */
+    padding-bottom: 10px;
+}
+
+.activity-header h2 {
+    color: #d9534f; /* Consistent pinkish color for activity titles */
+    font-size: 1.6rem;
+}
+
+.instructions {
+    background-color: #fff9c4; /* Light yellow for instructions */
+    border: 1px solid #fce697;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    color: #5a502a; /* Darker text for readability on yellow */
+    text-align: left;
+}
+.instructions strong {
+    color: #c77700; /* Orange for emphasis within instructions */
+}
+.instructions p {
+    margin-bottom: 0.5em;
+}
+.instructions p:last-child {
+    margin-bottom: 0;
+}
+
+
+/* Common Interactive Elements */
+.image-choices, .item-display {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.image-choices img, .item-display img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain; /* Changed to contain to ensure full image is visible */
+    border: 3px solid transparent;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+    background-color: #f9f9f9; /* Light background for images */
+    padding: 5px; /* Small padding around image */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.image-choices img:hover, .item-display img:hover,
+.image-choices img:focus, .item-display img:focus {
+    transform: scale(1.05);
+    border-color: #6ba8e9; /* Light blue hover/focus */
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+    outline: none;
+}
+.image-choices img:focus-visible, .item-display img:focus-visible {
+     border-color: #0056b3; /* Stronger focus for keyboard */
+}
+
+
+.button-choices {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+.button-choices button, .number-options button {
+    background-color: #5cb85c; /* Green for correct/choice buttons */
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+    min-width: 100px; /* Minimum width for consistency */
+}
+.button-choices button:hover, .number-options button:hover,
+.button-choices button:focus, .number-options button:focus {
+    background-color: #4cae4c; /* Darker green */
+    transform: translateY(-2px);
+    outline: none;
+}
+.button-choices button:focus-visible, .number-options button:focus-visible {
+    box-shadow: 0 0 0 2px #2e6f2e; /* Focus ring */
+}
+.button-choices button:disabled, .number-options button:disabled {
+    background-color: #c7c7c7;
+    cursor: not-allowed;
+    transform: none;
+}
+
+.ready-button {
+    background-color: #007bff; /* Blue for general action buttons */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: background-color 0.3s, transform 0.1s ease;
+}
+.ready-button:hover, .ready-button:focus {
+    background-color: #0056b3; /* Darker blue */
+    transform: translateY(-2px);
+    outline: none;
+}
+.ready-button:focus-visible {
+    box-shadow: 0 0 0 2px #004085;
+}
+.ready-button.back-button { /* Specific style for "Back to Activities" */
+    background-color: #6c757d; /* Grey */
+}
+.ready-button.back-button:hover, .ready-button.back-button:focus {
+    background-color: #545b62;
+}
+
+
+/* Feedback Area */
+.feedback-subsection, /* For multi-part activities */
+#feedback-area {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    min-height: 30px; /* To prevent layout jumps */
+    opacity: 0; /* For fade-in transition */
+    transition: opacity 0.4s ease-in-out;
+}
+.feedback-subsection.visible,
+#feedback-area.visible { /* JS will add/remove 'visible' class */
+    opacity: 1;
+}
+.feedback-correct, .feedback-subsection.feedback-correct {
+    color: #28a745; /* Bootstrap green */
+}
+.feedback-incorrect, .feedback-subsection.feedback-incorrect {
+    color: #dc3545; /* Bootstrap red */
+}
+
+
+/* CD Play Prompt */
+.cd-play-prompt {
+    background-color: #ffe0b2; /* Light orange for CD prompt */
+    border: 1px solid #ffcc80;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    display: inline-block;
+    color: #854d0e;
+}
+.cd-play-prompt strong {
+    color: #e65100; /* Darker orange for emphasis */
+}
+
+
+/* Utility Class */
+.hidden {
+    display: none !important;
+}
+
+
+/* Specific Activity Styles */
+
+/* -- Feelings Activity -- */
+#character-image { /* From feelings.html */
+    max-width: 200px;
+    height: 200px;
+    object-fit: contain;
+    border: 2px solid #ddd;
+    border-radius: 50%; /* Circular character image */
+    margin-bottom: 10px;
+    background-color: #f9f9f9; /* Added for better look if image is transparent */
+}
+
+/* -- Numbers Activity -- */
+.number-options button { /* Style for number choice buttons like "19 books" */
+    background-color: #f0ad4e; /* Orange for number buttons */
+    min-width: 150px; /* Wider buttons for number + item */
+    padding: 15px 20px;
+}
+.number-options button:hover, .number-options button:focus {
+    background-color: #ec971f;
+}
+.number-options button:active {
+    transform: scale(0.95) translateY(0); /* Adjust active state */
+}
+/* .item-display .item-name {  From numbers.html JS - though not currently used in provided code for displaying separate item name text } */
+
+
+/* -- Age Activity -- */
+#character-age-image { /* From age.html */
+    max-width: 250px;
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    border: 2px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+/* -- Be Verb Practice & Be Negative & Be Questions -- */
+.pronoun-placeholder, .verb-placeholder, .question-word-placeholder, .possessive-placeholder {
+    display: inline-block; /* Keeps it in line with text */
+    min-width: 70px; /* Ensure enough space for filled text */
+    text-align: center; /* Centers text if any is typed or pre-filled */
+    border: 1.5px dashed #007bff; /* Dashed border for "fill me" feel */
+    background-color: #eef7ff; /* Very light blue background to make it distinct */
+    color: #0056b3; /* Darker blue for text inside, good contrast */
+    font-weight: bold; /* Makes placeholder text (if any) or filled text stand out */
+    padding: 3px 8px; /* Padding inside the placeholder */
+    margin: 0 3px; /* Space around the placeholder */
+    border-radius: 4px; /* Slightly rounded corners */
+    line-height: 1.4; /* Adjust line height for text within placeholder */
+}
+.verb-choice-placeholder { /* For isn't / aren't options */
+     /* This style can remain or be harmonized with the above if desired */
+     border-bottom: 2px dotted #337ab7;
+     font-style: italic;
+     min-width: 150px;
+}
+#be-positive-sentence, #sp-picture-sentence, #sa-question-text, #wq-question-prompt,
+#be-negative-exercise-area p { /* Ensure enough space for sentences */
+    min-height: 1.5em; /* Prevent jump when text changes */
+    padding: 5px 0;
+    line-height: 1.8; /* Added for better readability of sentences with blanks */
+}
+#sp-picture-image { /* From be_verb_practice.html */
+    max-width: 350px;
+    max-height: 200px;
+    height: auto;
+    border: 1px solid #ddd;
+    margin-bottom:10px;
+    object-fit: contain;
+    background-color: #f9f9f9;
+}
+.button-choices button:active,
+.number-options button:active, /* Already has an active, this ensures consistency if reviewed */
+.ready-button:active {
+    transform: scale(0.96) translateY(1px); /* Slight press down and shrink effect */
+}
+
+
+/* -- Possessive Adjectives Rap -- */
+#rap-lyrics-area { /* Container for rap lines */
+    margin-top: 20px;
+    text-align: left;
+    max-height: 400px; /* Scroll for long raps */
+    overflow-y: auto;
+    border: 1px solid #eee;
+    padding:10px;
+    border-radius:5px;
+    background-color: #ffffff;
+}
+.rap-line {
+    padding: 10px;
+    margin: 5px auto;
+    background-color: #f0f0f0;
+    border-left: 4px solid #007bff;
+    font-size: 1.1em;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    cursor: default;
+    border-radius: 4px;
+    max-width: 600px;
+    transition: background-color 0.3s ease, border-left-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+}
+.rap-line img {
+    max-width: 80px;
+    max-height: 80px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    object-fit: contain;
+    background-color: #ffffff;
+}
+.rap-line.active {
+    background-color: #d6eaff; /* Slightly more vibrant blue */
+    border-left-color: #ff7b00; /* Brighter orange for more pop */
+    font-weight: bold; /* Keeps text bold */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15); /* More pronounced shadow */
+    transform: scale(1.02); /* Slight zoom to make it stand out */
+}
+.possessive-word {
+    font-weight: bold;
+    color: #d9534f;
+    text-decoration: underline;
+}
+#pq-image { /* Image for possessive quiz */
+    max-width: 250px;
+    height: auto;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* -- Days of the Week -- */
+#draggable-days-pool {
+    margin-bottom: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+    border: 1px solid #eee;
+    padding: 10px;
+    min-height: 50px;
+    background-color: #fdfdfd;
+    border-radius: 5px;
+}
+.day-item {
+    padding: 10px 15px;
+    background-color: #e7f3fe;
+    border: 1px solid #bde0fe;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: grab;
+    text-align: center;
+    font-weight: bold;
+    user-select: none;
+    transition: background-color 0.2s, box-shadow 0.2s;
+}
+.day-item:hover {
+    background-color: #d0e8fd;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.day-item:focus-visible { /* For keyboard accessibility on draggable items */
+    outline: 2px solid #0056b3;
+    outline-offset: 1px;
+}
+.ordered-sequence .day-item { /* For the "1. Monday" fixed item */
+     background-color: #c3e6cb;
+     cursor:default;
+     border-color: #b3d9b8;
+}
+.drop-zone {
+    padding: 15px;
+    min-height: 60px;
+    background-color: #f0f0f0;
+    border: 2px dashed #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    align-items: center;
+}
+.drop-zone .day-item {
+    cursor: default;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+.drop-zone.drag-over {
+    border-color: #007bff;
+    background-color: #e0effe;
+}
+.day-item.dragging {
+    opacity: 0.6;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    cursor: grabbing;
+}
+.ordered-days-list {
+    list-style: none;
+    padding: 0;
+    max-width: 300px;
+    margin: 15px auto;
+}
+.ordered-days-list li {
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #eee;
+    margin-bottom: -1px; /* Overlap borders slightly */
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    text-align: left;
+}
+.ordered-days-list li:first-child {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.ordered-days-list li:last-child {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-bottom: 0;
+}
+.ordered-days-list li:hover, .ordered-days-list li:focus {
+    background-color: #e9ecef;
+    outline: none;
+}
+.ordered-days-list li:focus-visible {
+    box-shadow: 0 0 0 2px #0056b3 inset;
+}
+.ordered-days-list li.heard {
+    background-color: #c3e6cb;
+    color: #155724;
+    text-decoration: line-through;
+    font-weight: bold;
+    cursor: default;
+}
+.ordered-days-list li.heard:hover {
+    background-color: #c3e6cb;
+}
+
+
+/* Basic Responsiveness - Refined in Cycle 8 */
+@media (max-width: 768px) { /* Tablet and smaller */
+    header h1 {
+        font-size: 1.5rem;
+    }
+    header p {
+        font-size: 0.9rem;
+    }
+    main {
+        margin: 10px;
+        padding: 15px;
+    }
+    .activity-header h2 {
+        font-size: 1.4rem;
+    }
+    .instructions {
+        font-size: 1rem;
+        padding: 12px;
+    }
+
+    .image-choices img, .item-display img, #character-image {
+        width: 120px;
+        height: 120px;
+    }
+     #character-age-image, #pq-image, #sp-picture-image {
+        height: auto;
+        max-width: 180px;
+    }
+
+
+    .button-choices, .number-options {
+        flex-direction: column;
+        align-items: center;
+    }
+    .button-choices button, .number-options button, .ready-button {
+        width: 90%;
+        max-width: 300px;
+        padding: 10px 15px;
+        font-size: 0.95rem;
+        margin: 6px 0;
+    }
+
+    .rap-line {
+        flex-direction: column;
+        align-items: flex-start;
+        max-width: 95%;
+    }
+    .rap-line img {
+        max-width: 70px;
+        m/* Suggested additions to ../css/style.css */
+        
+        #age-question-area {
+            margin-bottom: 15px;
+        }
+        
+        #age-question-text {
+            font-size: 1.3em;
+            min-height: 1.5em; /* Prevents layout shift when text is loaded */
+        }
+        
+        #character-age-display {
+            margin-bottom: 20px;
+        }
+        
+        #character-age-image {
+            max-width: 100%;
+            height: auto;
+            display: block; /* Optional: to remove extra space if parent is inline-block or if there are issues with bottom margin */
+        }
+        
+        #next-age-question-btn {
+            margin-top: 20px;
+        }
+        
+        .back-link-container { /* New class for the paragraph wrapping the back link */
+            text-align: center;
+            margin-top: 30px;
+        }
+        ax-height: 70px;
+        margin-bottom: 5px;
+    }
+    .ordered-sequence { /* For Days of Week */
+        flex-direction: column;
+        align-items: stretch; /* Make drop zone full width */
+    }
+    #days-drop-zone {
+        width: 100%;
+        min-height: 100px;
+    }
+    #draggable-days-pool .day-item {
+        font-size: 0.9rem;
+        padding: 8px 12px;
+    }
+}
+
+@media (max-width: 480px) { /* Larger phones */
+    header h1 {
+        font-size: 1.3rem;
+    }
+    .activity-header h2 {
+        font-size: 1.2rem;
+    }
+    .instructions {
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+    .feedback-subsection, #feedback-area {
+        font-size: 1.1rem;
+    }
+    .image-choices img, .item-display img, #character-image {
+        width: 100px;
+        height: 100px;
+    }
+    #character-age-image, #pq-image, #sp-picture-image {
+         height: auto;
+         max-width: 150px;
+    }
+     .button-choices button, .number-options button, .ready-button {
+        font-size: 0.9rem;
+    }
+    .rap-line p { /* Text within rap line */
+        font-size: 1em;
+    }
+     #be-positive-sentence, #sp-picture-sentence, #sa-question-text, #wq-question-prompt,
+    #be-negative-exercise-area p {
+        font-size: 1.1em; /* Slightly smaller on small screens */
+    }
+}

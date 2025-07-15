@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be Verb Practice - RBS ESL</title>
+    <link rel="stylesheet" href="../css/style.css"> <!-- Path relative to its location -->
+</head>
+<body>
+    <header>
+        <h1>RBS ESL_LEARNING & EMPOWERED BY GEMINI STUDIOS</h1>
+    </header>
+
+    <main>
+        <div class="activity-container">
+            <div class="activity-header">
+                <h2>Subject Pronouns & 'Be' Positive (SB p18, Ex 1, 2, 3)</h2>
+            </div>
+
+            <!-- Section 1: Subject Pronouns - Circle Correct (SB p18 Ex1) -->
+            <section id="subject-pronoun-choice-section">
+                <div class="instructions">
+                    <p><strong>Part 1: Choose the Correct Subject Pronoun.</strong> Click the correct pronoun.</p>
+                </div>
+                <div id="sp-choice-exercise-area" style="min-height: 100px; margin-bottom: 15px;"> 
+                    <!-- Questions will be loaded here by JS -->
+                </div>
+                <div id="sp-choice-feedback" class="feedback-subsection" role="alert" aria-live="polite"></div>
+                <button id="next-sp-choice-btn" class="ready-button hidden" style="margin-top: 10px;">Next</button>
+            </section>
+
+            <hr style="margin: 30px 0;">
+
+            <!-- Section 2: Subject Pronouns - Complete with Picture (SB p18 Ex2) -->
+            <section id="subject-pronoun-picture-section" class="hidden">
+                <div class="instructions">
+                    <p><strong>Part 2: Complete the Sentence.</strong> Look at the picture and choose the correct pronoun.</p>
+                </div>
+                <div id="sp-picture-exercise-area" style="margin-bottom: 15px;">
+                    <img id="sp-picture-image" src="../assets/images/ui/placeholder_image.png" alt="Scene">
+                    <p id="sp-picture-sentence" style="font-size: 1.2em; min-height: 1.5em; margin-top:10px;"></p>
+                </div>
+                <div id="sp-picture-options" class="button-choices"></div>
+                <div id="sp-picture-feedback" class="feedback-subsection" role="alert" aria-live="polite"></div>
+                <button id="next-sp-picture-btn" class="ready-button hidden" style="margin-top: 10px;">Next</button>
+            </section>
+            
+            <hr style="margin: 30px 0;">
+
+            <!-- Section 3: 'Be' Positive - Gap Fill (SB p18 Ex3) -->
+            <section id="be-positive-section" class="hidden">
+                <div class="instructions">
+                    <p><strong>Part 3: Complete with 'am', 'is', or 'are'.</strong> Click the correct verb.</p>
+                </div>
+                <div id="be-positive-exercise-area" style="margin-bottom: 15px;">
+                    <p id="be-positive-sentence" style="font-size: 1.2em; margin-bottom:10px; line-height:1.8; min-height: 3em;"></p>
+                </div>
+                <div id="be-positive-options" class="button-choices"></div>
+                <div id="be-positive-feedback" class="feedback-subsection" role="alert" aria-live="polite"></div>
+                <button id="next-be-positive-btn" class="ready-button hidden" style="margin-top: 10px;">Next</button>
+            </section>
+
+            <div id="activity-completion-message" class="hidden" style="margin-top:20px; font-size: 1.3em; color: green; font-weight: bold;">
+                Well done! You've completed all parts of this practice!
+            </div>
+        </div>
+        <p style="text-align: center; margin-top: 30px;"><a href="../index.html" class="ready-button back-button">Back to Activities</a></p>
+    </main>
+
+    <footer>
+        <p>&copy; 2023-2024 RBS ESL_LEARNING & EMPOWERED BY GEMINI STUDIOS. All Rights Reserved.</p>
+    </footer>
+
+    <audio id="correct-sound" src="../assets/audio/correct.mp3" preload="auto"></audio>
+    <audio id="incorrect-sound" src="../assets/audio/incorrect.mp3" preload="auto"></audio>
+
+    <script src="../js/activities/be_verb_practice.js"></script>
+</body>
+</html>

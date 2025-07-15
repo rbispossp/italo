@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Days of the Week - RBS ESL</title>
+    <link rel="stylesheet" href="../css/style.css"> <!-- Path relative to its location -->
+    <!-- Specific styles for this page could be in style.css or here if minimal -->
+</head>
+<body>
+    <header>
+        <h1>RBS ESL_LEARNING & EMPOWERED BY GEMINI STUDIOS</h1>
+    </header>
+
+    <main>
+        <div class="activity-container">
+            <div class="activity-header">
+                <h2>Sounds Right: Days of the Week (SB p16, Ex 3a, 3b)</h2>
+            </div>
+
+            <!-- Part 1: Order the Days (Ex 3a) -->
+            <section id="order-days-section">
+                <div class="instructions">
+                    <p><strong>Part 1: Order the Days.</strong> Drag the days from the top pool into the correct order in the box below. Monday is done for you. Drag items back to the pool to remove them from the order.</p>
+                </div>
+                <div id="draggable-days-pool" class="drop-zone" style="border-style: solid; border-color: #bde0fe; background-color: #f0f8ff; min-height:60px;">
+                    <!-- Draggable day items will be here by JS -->
+                </div>
+                <div class="ordered-sequence" style="display: flex; align-items: center; gap: 5px; background-color:#e9ecef; padding:10px; border-radius:5px; margin-top:15px;">
+ <div class="day-item" style="background-color: #c3e6cb; cursor:default; border-color: #b3d9b8;" data-day="monday" draggable="false">1. Monday</div>
+                    <div id="days-drop-zone" class="drop-zone" style="flex-grow:1; min-height: 50px;">
+                        <!-- Dropped items will appear here by JS -->
+                    </div>
+                </div>
+                <button id="check-order-btn" class="ready-button" style="margin-top:15px;">Check Order</button>
+                <button id="reset-drag-btn" class="ready-button" style="margin-top:15px; margin-left:10px; background-color: #ffc107; color: #212529;">Reset Order</button>
+                <div id="order-feedback" class="feedback-subsection" role="alert" aria-live="polite"></div>
+            </section>
+
+            <hr style="margin: 30px 0;">
+
+            <!-- Part 2: Listen and Verify (Ex 3b) -->
+            <section id="listen-verify-days-section" class="hidden">
+                <div class="instructions">
+                    <p><strong>Part 2: Listen and Check.</strong></p>
+                    <p class="cd-play-prompt">Play <strong>CD1, Track 23</strong>. Click each day as you hear it in the correct order.</p>
+                </div>
+                <ul id="ordered-days-list">
+                    <!-- Ordered days will be listed here by JS -->
+                </ul>
+                <div id="listen-feedback" class="feedback-subsection" role="alert" aria-live="polite"></div>
+                <button id="reset-listen-btn" class="ready-button hidden" style="margin-top:15px; background-color: #ffc107; color: #212529;">Reset Listening</button>
+            </section>
+        </div>
+        <p style="text-align: center; margin-top: 30px;"><a href="../index.html" class="ready-button back-button">Back to Activities</a></p>
+    </main>
+
+    <footer>
+        <p>&copy; 2023-2024 RBS ESL_LEARNING & EMPOWERED BY GEMINI STUDIOS. All Rights Reserved.</p>
+    </footer>
+
+    <audio id="correct-sound" src="../assets/audio/correct.mp3" preload="auto"></audio>
+    <audio id="incorrect-sound" src="../assets/audio/incorrect.mp3" preload="auto"></audio>
+    <audio id="click-sound" src="../assets/audio/click.mp3" preload="auto"></audio> <!-- For day clicks/drag -->
+
+    <script src="../js/activities/days_of_week.js"></script>
+</body>
+</html>

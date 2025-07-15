@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Possessive Adjectives - RBS ESL</title>
+    <link rel="stylesheet" href="../css/style.css"> <!-- Path relative to its location -->
+    <!-- Specific styles for this page could be in style.css or here if minimal -->
+</head>
+<body>
+    <header>
+        <h1>RBS ESL_LEARNING & EMPOWERED BY GEMINI STUDIOS</h1>
+    </header>
+
+    <main>
+        <div class="activity-container">
+            <div class="activity-header">
+                <h2>Possessive Adjectives (SB p19, Ex 8)</h2>
+            </div>
+
+            <div class="instructions">
+                <p><strong>Part 1: Listen and Follow the Rap.</strong></p>
+                <p class="cd-play-prompt">Play <strong>CD1, Track 25</strong>. Click "Start Rap". You can then click each line as you hear it, or use "Auto-Advance Lines" to have them highlight automatically.</p>
+                <div style="margin-top:10px; margin-bottom:10px;">
+                    <button id="start-rap-btn" class="ready-button">Start Rap</button>
+                    <button id="auto-advance-btn" class="ready-button" style="margin-left: 10px;" disabled>Auto-Advance Lines</button>
+                </div>
+            </div>
+
+            <div id="rap-lyrics-area">
+                <!-- Rap lines will be inserted here by JS -->
+            </div>
+            
+            <hr style="margin: 30px 0;">
+
+            <section id="possessive-quiz-section" class="hidden">
+                <div class="instructions">
+                    <p><strong>Part 2: Whose is it?</strong> Look at the picture and choose the correct possessive adjective.</p>
+                </div> 
+                <div id="pq-exercise-area" style="margin-bottom: 15px;">
+                    <img id="pq-image" src="../assets/images/ui/placeholder_image.png" alt="Scene">
+                    <p id="pq-sentence" style="font-size: 1.2em; min-height: 1.5em; margin-top: 10px;"></p>
+                </div>
+                <div id="pq-options" class="button-choices"></div>
+                <div id="pq-feedback" class="feedback-subsection" role="alert" aria-live="polite"></div>
+                <button id="next-pq-btn" class="ready-button hidden" style="margin-top:15px;">Next</button>
+            </section>
+        </div>
+        <p style="text-align: center; margin-top: 30px;"><a href="../index.html" class="ready-button back-button">Back to Activities</a></p>
+    </main>
+
+    <footer>
+        <p>&copy; 2023-2024 RBS ESL_LEARNING & EMPOWERED BY GEMINI STUDIOS. All Rights Reserved.</p>
+    </footer>
+
+    <audio id="correct-sound" src="../assets/audio/correct.mp3" preload="auto"></audio>
+    <audio id="incorrect-sound" src="../assets/audio/incorrect.mp3" preload="auto"></audio>
+    <audio id="click-sound" src="../assets/audio/click.mp3" preload="auto"></audio> <!-- For rap line advance -->
+
+    <script src="../js/activities/possessive_adjectives.js"></script>
+</body>
+</html>
