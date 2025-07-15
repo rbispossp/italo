@@ -1,0 +1,481 @@
+```json
+{
+  "image_c2e1ec.png": {
+    "page": "8a",
+    "title": "3 Look and Remember",
+    "lesson_objectives": [
+      "listen to and sing a song about being back at school.",
+      "ask and answer personal questions."
+    ],
+    "resources": "Audio tracks 1-2, Classroom Presentation Tool, Online Practice",
+    "sections": [
+      {
+        "title": "Warm Up",
+        "content": "Say 'I always buy new things before I come back to school.' Show the class any new things. Put students in groups to show each other their new things. Encourage students to call on them to show their favorite new thing for school. Write them on the board, for example, 'pen, markers, crayons, lunch box, etc.'"
+      },
+      {
+        "activity_number": "1",
+        "instructions": [
+          "Have students open their books to p. 8. Read aloud the instructions. Play TR: 1 and have them follow with their finger.",
+          "Play TR: 1 again and have students sing along.",
+          "Extra Challenge: Play TR: 1 again, turning the sound down halfway through each line and encouraging the class to sing the missing words.",
+          "Extra Support: Play TR: 1, pausing after each line to give students time to practice singing each line. Repeat, slowly building up to verses, and eventually the full song."
+        ]
+      },
+      {
+        "activity_number": "2",
+        "instructions": [
+          "Read aloud the first part of the instructions. Have students work in pairs to write the questions, and then check them as a class.",
+          "Point to the cloud. Say 'In this cloud is some information about a boy. Look at Item 1 again. What's the question? (What's your name?) Find the answer in the cloud. Then ask Is it Masha? Is it Maria? (No) Right. Luis is a boys name. So it's Luis.' Have students complete the activity in pairs.",
+          "When students have finished, have pairs of students check their answers. Call on pairs to share their answers.",
+          "Extra Challenge: Have students write different questions that could have the answers in the cloud.",
+          "Extra Support: Write 1–7 on the board. Write 'What's next?' to 1. Call on students to identify the question word in the other questions and write it next to each question number."
+        ],
+        "script_tr2": {
+          "title": "Script for TR: 2",
+          "dialogue": [
+            { "speaker": "Ana", "line": "Hi, Luis. What's your name?" },
+            { "speaker": "Luis", "line": "I'm Luis." },
+            { "speaker": "Ana", "line": "Mmmm...How old are you?" },
+            { "speaker": "Luis", "line": "I'm nine. Well done!" },
+            { "speaker": "Ana", "line": "Mmmm... South Street. Where is your house?" },
+            { "speaker": "Luis", "line": "South Street. Where do you live?" },
+            { "speaker": "Ana", "line": "Right. Where do you live?" },
+            { "speaker": "Luis", "line": "I live on South Street." },
+            { "speaker": "Ana", "line": "Mmmm... Green. What color is your T-shirt?" },
+            { "speaker": "Luis", "line": "It's not green. That's blue." },
+            { "speaker": "Ana", "line": "Oh, yes... What's your favorite color?" },
+            { "speaker": "Luis", "line": "Yes, that's right. My favorite color is green." },
+            { "speaker": "Ana", "line": "OK. Thanks, Luis. What's your sister's name?" },
+            { "speaker": "Luis", "line": "My sister's name is Patricia." },
+            { "speaker": "Ana", "line": "OK. Mmmm. What's your mother's name?" }
+          ]
+        }
+      },
+      {
+        "title": "Task Guidance Notes",
+        "content": [
+          {
+            "sub_title": "Monitor Speaking",
+            "text": "Part B Students answer personal questions about themselves, on topics such as school, weekends, friends, and hobbies. There is no visual prompt so students are only expected to give short answers of between one and five words. Questions are generally in the present tense but they may also be asked about past events (e.g. yesterday), the past to test their understanding and summarizing spoken questions."
+          },
+          {
+            "sub_title": "Challenges",
+            "text": "Students can get nervous because there are no pictures to help them and they have to rely on listening. Go over the familiar personal topics they may be asked about (e.g. family, hobbies, etc.) and practice simple questions on these themes."
+          },
+          {
+            "sub_title": "Performance Descriptors",
+            "text": "Answers questions on familiar topics with simple phrases and sentences"
+          },
+          {
+            "sub_title": "Formative",
+            "text": "Give students practice in identifying the variety of question forms quickly with a word association task. Write How? When? Where? Do you? in columns on the board. Elicit and add to each question (e.g. How? How do you? How much?). Then go around the class saying each question type randomly and have students quickly say an appropriate word."
+          },
+          {
+            "sub_title": "Personalize",
+            "text": "Ask students into new pairs to ask and answer the questions for themselves."
+          },
+          {
+            "sub_title": "Focus",
+            "text": "on one aspect of the assessment. Listen and make notes of any problems. Don't interrupt the flow of the activity. Then go back over any issues with the class after the activity."
+          }
+        ],
+        "assessment_interaction": {
+          "title": "Assess: Interaction",
+          "levels": [
+            { "level": "Excellent performance", "description": "responds appropriately, needs very little support, generally responds promptly" },
+            { "level": "Satisfactory performance", "description": "responds but with some support, prompt but with some hesitation and delays" }
+          ]
+        },
+        "second_chance": "Re-ask or remind students. Say 'I don't understand.' Ask students in new pairs to repeat the last task thinking about pronunciation. Use facial mimes to say 'Sorry I don't understand' and their partner then has to repeat the question."
+      },
+      {
+        "title": "Wrap Up",
+        "content": "Say 'I want to know you better so please write me a letter. Tell me about you.' Write on the board: 'My name is ..., I'm ... years old, I have ..., I can ..., I like ..., I want to be a ..., and My favorite thing is ...' Have students write and give you their letters."
+      }
+    ],
+    "additional_practice": "Online Practice",
+    "footer": "SAMPLE COPY, NOT FOR DISTRIBUTION"
+  },
+  "image_c2e226.png": {
+    "page": "9a",
+    "title": "1 Around the World",
+    "unit_overview": {
+      "objectives": [
+        "name and locate ten countries.",
+        "ask and answer where people, animals, and things are from.",
+        "read about the Fennessy family and giraffes in Namibia.",
+        "use our and their to talk about their families.",
+        "listen to and sing a song with a guessing game.",
+        "identify three ways to spell the /ei/ sound: a_e, ai, and ay.",
+        "watch a video about children from other countries.",
+        "write three things about their country.",
+        "identify the value of making friends."
+      ],
+      "language": {
+        "Words": "Argentina, Australia, Brazil, Italy, Japan, Poland, South Africa, Spain, the UK, the US, daughter, grandparents, parents, son",
+        "Grammar": "Are you from Japan? Yes, I am., Luca is my brother.",
+        "Phonics": "/ei/ plane, train, play"
+      },
+      "twenty_first_century_skills": {
+        "Collaboration": "Compare ideas with a partner, Lesson 4",
+        "Communication": "Describe your country to a person from another country, Lesson 7",
+        "Creativity": "Write new lyrics for a guessing song, Lesson 5",
+        "Critical Thinking": "Identify positive and negative aspects of other children's lives, Lesson 3"
+      }
+    },
+    "unit_opener": {
+      "title": "In the Unit Opener, students will:",
+      "objectives": [
+        "respond to a photo of friends having fun.",
+        "discuss their own experiences of water play."
+      ],
+      "resources": "Home-School Connection Letter, Classroom Presentation Tool",
+      "materials": "a large map of the world (poster or online image)"
+    },
+    "sections": [
+      {
+        "title": "Introduce the Theme",
+        "content": [
+          "If possible, have a world map on the wall for the whole year. Point to it and say 'This year, we're visiting lots of different places.' Every time we visit somewhere new, let's stick it on the map. Show the students the map of the world. Teach the meaning of the word world and ask a student to point to where he/she lives. Provide support as necessary. Find out if students know the name of their country in English. Ask 'Is it a big/hot country? What continent is it on?' Write the heading 'Countries' on the board and begin a list with their own country as the first item.",
+          "Ask what other countries students know. Write these countries on the list."
+        ]
+      },
+      {
+        "title": "Use the Photo",
+        "content": [
+          "Have students open their books to p. 9. Focus their attention on the photo and ask some simple questions to engage the whole class. Ask 'Are they boys or girls? (boys) What are they wearing? (shorts) How are they feeling? (happy)'",
+          "Find Indonesia on the map. Say 'The children are in Indonesia.' Have a student find Indonesia on a world map. Then, continue taking about the photo.",
+          "Direct students' attention to the questions at the bottom of the page. Put students in pairs. Say 'Look at the questions. Don't write. Talk to your partner about the answers.' When students finish, call on pairs to share their answers with the class. Accept different answers, for example, 'The boys are in the river/lake/jungle. It looks like they are playing/running/getting wet/having fun. Children play in the rivers/sea/swimming pool/river/bath'. Find out what students enjoy doing in water such as swimming underwater, floating on a raft, or splashing on their hands.",
+          "Ask students if they would like to go to the place in the photo."
+        ]
+      },
+      {
+        "title": "TEACHER TIP",
+        "content": [
+          "Children need routines in class to feel secure and to broaden their learning cycles over long periods of time. Routines need building up over the first few weeks of a course, so introduce a routine at each class, or each week, until they are well-established. Start on day one with a routine at the classroom door. Stand at the door and insist students stop and say 'Hello. Can I come in? (you decide the wording)' and wait for your permission. This gets student checking for their rights away.",
+          "Other routines you might introduce over the coming weeks include the following:",
+          "- Writing the day's date on the board (good after teaching months and ordinal numbers)",
+          "- Setting up a timetable for class monitors - a helper to hand out worksheets and books, clean the board, write the words in a weekly spelling box. Keep the monitor list.",
+          "- Rewarding stickers for good work, use of English, and meeting goals",
+          "- Awarding the class a game at the end of each class provided they worked productively",
+          "- Discussing a word of the day, a word which is discussed and learned in class even though it isn't formally presented in the lesson"
+        ]
+      }
+    ],
+    "footer": "SAMPLE COPY, NOT FOR DISTRIBUTION"
+  },
+  "image_c2e548.png": {
+    "page": "11",
+    "header": "Grammar LESSON 2",
+    "activities": [
+      {
+        "number": 1,
+        "instruction": "Listen, point, and chant. 🎧 TR: 5",
+        "chant": [
+          "Hello! Ciao! Konnichiwa!",
+          "Sawubona! Cześć! Hey! Hola!",
+          "Where are you from? Are you from Japan?",
+          "Yes, yes, I am. I'm from Japan.",
+          "And where is he from?",
+          "He's from the US.",
+          "And where is she from?",
+          "She's from Brazil.",
+          "So many countries—so many friends.",
+          "Let's travel the world. The fun never ends."
+        ]
+      },
+      {
+        "number": 2,
+        "instruction": "Listen and read. 🎧 TR: 6",
+        "content": [
+          "Are you from Japan? Yes, I am.",
+          "Where are you from? I'm from Japan.",
+          "Where is she from? She's from Brazil."
+        ]
+      },
+      {
+        "number": 3,
+        "instruction": "Match.",
+        "matches": [
+          { "question": "1. Where is Leo from?", "answer": "He's from Poland." },
+          { "question": "2. Where are koalas from?", "answer": "They're from Australia." },
+          { "question": "3. Is soccer from the UK?", "answer": "No, we aren't. We're from Spain." },
+          { "question": "4. Where are you from?", "answer": "I'm from Brazil." },
+          { "question": "5. Are you from Poland?", "answer": "Yes, it is." }
+        ]
+      },
+      {
+        "number": 4,
+        "instruction": "Play.",
+        "dialogues": [
+          [
+            { "line": "Hi. What's your name?" },
+            { "line": "My name's Akari." }
+          ],
+          [
+            { "line": "Are you from Japan?" },
+            { "line": "Yes, I am." }
+          ],
+          [
+            { "line": "Are you from China?" },
+            { "line": "No, I'm not." }
+          ]
+        ]
+      }
+    ],
+    "value_box": {
+      "title": "VALUE",
+      "text": "Make friends.",
+      "reference": "Workbook, Lesson 6"
+    },
+    "map_labels": ["Japan", "Oceania", "Australia"],
+    "footer": "UNIT 1 Around the World 11, SAMPLE COPY, NOT FOR DISTRIBUTION"
+  },
+  "image_c2e4cc.jpg": {
+    "page": "10",
+    "header": "LESSON 1 Words",
+    "activities": [
+      {
+        "number": 1,
+        "instruction": "Listen and point. 🎧 TR: 3"
+      },
+      {
+        "number": 2,
+        "instruction": "Listen and repeat. 🎧 TR: 4"
+      },
+      {
+        "number": 3,
+        "instruction": "Ask and answer.",
+        "dialogue": [
+          { "line": "What's this country?" },
+          { "line": "It's Brazil." },
+          { "line": "Correct!" }
+        ]
+      }
+    ],
+    "map_labels": [
+      "North America",
+      "the US",
+      "Europe",
+      "Spain",
+      "the UK",
+      "Italy",
+      "Asia",
+      "Africa",
+      "South America",
+      "Brazil",
+      "Argentina",
+      "South Africa",
+      "Antarctica"
+    ],
+    "footer": "10 UNIT 1 Around the World"
+  },
+  "image_c2e52b.png": {
+    "page": "11a",
+    "header": "LESSON 2 Grammar",
+    "lesson_objectives": [
+      "ask and answer where people, animals, and things are from.",
+      "identify the value of making friends."
+    ],
+    "resources": "Audio tracks 5–6, Classroom Presentation Tool, Flashcards 1–10, Workbook pp. 9 and 13, Workbook Audio Track 1, Online Practice",
+    "materials": "name and country pieces of paper, globe",
+    "sections": [
+      {
+        "title": "Warm Up",
+        "content": "Use the Lesson 1 flashcards to review the names of the countries. Hold the flashcards in front of you so you can't see the first card, but the students can. Ask 'Is this country big or small?' and call on students to answer. Ask another question for each card, e.g. 'Are there deserts there?' and so on. When you're ready to guess, ask 'Is it [Argentina]?' and have students respond 'yes' or 'no'. To make the guessing game more fun, see if you can guess the country after three turns."
+      },
+      {
+        "activity_number": "1",
+        "instructions": [
+          "Write the words for 'hello' in different languages from the first two lines of the chant on the board. Call on students to guess which country says hello in each way. Write the country next to each one: Hello - the US, Australia, and the UK; Ciao - Italy (pronounced /tʃaʊ/ or /chaow/); Konnichiwa - Japan; Sawubona - South Africa (in Zulu, the first language of almost a quarter of the population); Cześć - Poland (pronounced /tʃɛɕtɕ/ or /cheshch/); Hey - English speaking countries; Hola - Spain and Argentina. In Brazil the word Olá has almost the same pronunciation.",
+          "Rehearse chanting the first two lines before playing the audio. Practice the first line, then the second.",
+          "Have students open their books to p. 10. Say 'Let's listen to a chant. Point to the countries you know on the map.' Play TR: 5.",
+          "Point to the chant on p. 11. Play TR: 5 again, stopping after each line and having students repeat it.",
+          "Divide the class into two groups. Turn to the students on your left and say 'You say the title.' Only this group practices. Turn to the right and say 'You say all the rest'. Say 'the purple words'. Both groups should chant lines 1, 2, 9, and 10 together but take turns to chant the questions and answers. Play TR: 5 again, this time with each group saying their part."
+        ]
+      },
+      {
+        "activity_number": "2",
+        "instructions": [
+          "Focus students' attention on the grammar box. Say 'In this lesson, we are saying where people and things are from.' Play TR: 6 and have students read along in the grammar box. Have them repeat the sentences.",
+          "Say 'I'm from (Poland).' To elicit the negative, ask 'Are you from Japan? (No, I'm not). Is [Mauro] from Japan? (No, he isn't.) Is [Anna and Andrea] from Japan? (No, they aren't).' Substitute other countries to review. Elicit using students' own to elicit a variety of answers. Repeat, asking several students if they're from other places."
+        ]
+      },
+      {
+        "activity_number": "3",
+        "instructions": [
+          "Read aloud the instructions. Then, point to Item 1. Say 'Where is Leo from? Leo is a boy's name. When we are talking about a boy, we use he. Which answer has he in it? (He's from Poland.) Yes. Let's draw a line from the question to this answer.' Give students two minutes to do the activity.",
+          "Extra Challenge: Have students write another question and answer in the same style as the activity but with clues for a grammar mistake, for example 'She's is from Italy.', from 'he is you, etc.' like this: 'Where ___ you from? I'm ___ Mexico.' Have students write their sentences on the board and call on other students to complete them.",
+          "Extra Support: Walk around and check for difficulties in matching questions and answers. Point out the difference between 'Is / Are ... from?' where, with 'you' questions. Ask 'Who do you answer for?' And 'Where from?' questions with a sentence beginning 'I / We / He / She / They'."
+        ]
+      },
+      {
+        "title": "Optional Activity",
+        "content": [
+          "Tell students to look at the map again. Ask 'Is a baseball from the UK?' 'Where are giraffes from?' Insist on full sentence answers ('No, it isn't. It's from the US. They are from South Africa.')",
+          "Have students in pairs take turns asking questions based on the map. Listen to students' responses.",
+          "Call on students to give a few of the questions and answers."
+        ]
+      },
+      {
+        "activity_number": "4",
+        "instructions": [
+          "Before class, prepare a piece of paper for each student with a name and a country on it, for example, 'name: Akari, country: Japan'. You can find suitable names for different countries on the Internet.",
+          "Model the conversation with a student. Say 'Hi. What's your name? (My name's Akari.) Are you from China? (No, I'm not.) Are you from Japan? (Yes, I am.)' Point to the model.",
+          "Hand out the pieces of paper, then have students mingle until they have spoken to at least five classmates. At the end, find out how many countries they can remember.",
+          "Value: Make friends. At the end, in the wrap up, you can introduce the value of making friends. Say 'The value of this lesson is Make friends. Point out that the first time you meet someone you say Hello, What's your name?, How are you?, and also can you ask when you meet someone? (name, age, likes / dislikes).' For additional practice, have students complete Lesson 6 of the Workbook in class or at home."
+        ]
+      },
+      {
+        "title": "Wrap Up",
+        "content": [
+          "Have a student come to the front of the class. Spin a globe and have the student put his/her finger down to make it stop. When it stops, ask 'Where are you from?' Have the student say the country his/her finger is pointing to, if the class knows one, if they do not know it, they can make it up. Provide help pronouncing the country name as necessary.",
+          "Have that student spin and call on a classmate to put his/her finger down. Now have the first student ask 'Where are you from?' and have the second student respond with the location. Continue this with different student pairs, until students have heard five new countries."
+        ]
+      }
+    ],
+    "additional_practice": "Workbook pp. 9 and 13, Online Practice"
+  },
+  "image_c2e50b.png": {
+    "page": "10a",
+    "header": "LESSON 1 Words",
+    "lesson_objectives": [
+      "name and locate ten countries."
+    ],
+    "resources": "Audio tracks 3-4, Classroom Presentation Tool, Flashcards 1-10, Workbook p. 8, Workbook Audio Track 3, Online Practice",
+    "materials": "a large map of the world, sticky tack, sticky notes",
+    "sections": [
+      {
+        "title": "Warm Up",
+        "content": "Use the Artwork: Have students open their books to p. 10. Focus their attention on the map. Put students in pairs with one book open in front of them. Tell them to point to different things. Say 'Find... an elephant/a bird/some fish/some ice/ a dancing couple/a swimming snake/ a flower/ some chocolate / a guitar/ some bananas / a bird / some ice cream / some people dancing.'\nPoint to different continents. Point to Europe and ask 'Is Europe a country? (no)' Point to Africa and ask 'Is Africa a country? (no)'. Say 'There are six continents.' Ask 'How many continents do you see? (seven)' 'What continent do we live on?' 'What continent is the elephant in? (Africa)' 'Is Africa smaller than Europe? (No, it isn't.) Is Asia bigger than North America? (Yes, it is.)' Say 'Today we are learning about countries.'"
+      },
+      {
+        "activity_number": "1",
+        "instructions": [
+          "Read aloud the instructions. Play TR: 3 and have students point to each country on the map.",
+          "Hand out the flashcards around the room. Say each country's name aloud. Have the student with the flashcard hold it up. After a few rounds, ask students to hand the flashcard to someone new and continue the activity.",
+          "Extra Challenge: Have a student call out country names for others to point to.",
+          "Extra Support: Pause the audio after each country. Display a map of the world. Call on a student to come to the front of the class and point to the country."
+        ]
+      },
+      {
+        "activity_number": "2",
+        "instructions": [
+          "Read aloud the instructions. Point to the activity and say 'Listen and repeat.' Play TR: 4. Have students repeat the words in chorus. Play TR: 4 again and call on individual students to repeat the words.",
+          "Hold up a flashcard and ask 'What's this?' Have students answer with the word. Continue in this way with all the flashcards."
+        ]
+      },
+      {
+        "title": "Sidebar",
+        "content": [
+          "Write the countries on the board, then elicit the word stress of each country. Say 'Argentina - how many syllables? Where's the stress?' Circle it: 'Ar-gen-ti-na, Ar-gen-ti-na, or Ar-gen-ti-na?' Show word stress on the board with large and small circles over stressed and unstressed syllables respectively: o O o o : Argentina, o O : Japan, o O o o : Australia, o O : the US.",
+          "Have students open their notebooks and record the new vocabulary."
+        ]
+      },
+      {
+        "title": "Optional Activity",
+        "content": [
+          "Display the flashcards on the board and number them 1-10. Call on two students to come to the board, one to turn his/her back for a moment and the other to remove one of the countries. Ask the student to turn around and say which country is missing.",
+          "Repeat with different students until there are no cards left. See if other students can remember which country was in each position, for example, ask 'Which country was number 1?'"
+        ]
+      },
+      {
+        "activity_number": "3",
+        "instructions": [
+          "Read aloud the instructions and point to the model. Hold up a copy of the student's book, point to Brazil, and ask 'What's this country? (Brazil).' Put the students in pairs. Tell them to keep one of their books open on the map but to cover up the names of the ten countries they can do this with sticky notes. Have one student ask his/her partner the student who asks the questions can look at the other book if necessary to check. After five questions, have students swap roles.",
+          "When students finish, ask questions about the map. Say 'I see a bird. Where am I? I see people dancing. Where am I? (Argentina). In North or South America?'",
+          "Extra Challenge: Hand students a dictionary and ask them to find the names in English of three more countries that are important to them (these could be countries that neighbor their country, places they'd like to visit, or places that are important to them for other reasons). Have students record them in their notebooks."
+        ]
+      },
+      {
+        "title": "Wrap Up",
+        "content": "Have students close their books. Then say 'On our map, this country has a bird. (Brazil). Two people are dancing in this country. (Argentina).' Continue with clues like this, each time eliciting the country name. After three or four examples, have students play the memory game in pairs or groups."
+      }
+    ],
+    "additional_practice": "Workbook p. 8, Online Practice",
+    "footer": "UNIT 1 Around the World 10a"
+  },
+  "image_c2e58c.jpg": {
+    "page": "12",
+    "header": "3 Reading",
+    "activities": [
+      {
+        "number": 1,
+        "instruction": "Look at the words. Listen and repeat. 🎧 TR: 7",
+        "vocabulary": ["son", "daughter", "parents", "grandparents"]
+      },
+      {
+        "number": 2,
+        "instruction": "What do you know about giraffes? Listen and read. 🎧 TR: 8",
+        "sample_answer": "Giraffes are very tall. They live in Africa."
+      }
+    ],
+    "reading_text": {
+      "title": "The Giraffe Family",
+      "paragraphs": [
+        "Julian and Stephanie Fennessy are giraffe experts. They live in Namibia in Africa with their son, Luca, and daughter, Molly. They aren't from Namibia. They live there because of the giraffes.",
+        {
+          "heading": "Luca (twelve years old)",
+          "text": "We help our parents with the giraffes. We use photos to see which giraffes are there. We know many giraffes because they all have different spots. Our family is from different places—my dad is from Australia, and my mom is from Germany."
+        },
+        {
+          "heading": "Molly (nine years old)",
+          "text": "Giraffes are cool. They are tall, and their colors are beautiful. I like their soft noses. Melvin is the name of my favorite giraffe. I like living here, but we don't see our grandparents, uncles and aunts, or cousins in Germany and Australia very often."
+        }
+      ]
+    },
+    "comprehension_activities": [
+      {
+        "number": 3,
+        "instruction": "Read again. Write T (true) or F (false).",
+        "questions": [
+          { "statement": "1. Molly and Luca's mom and dad know about giraffes.", "answer": "T" },
+          { "statement": "2. Molly and Luca's family isn't from Namibia.", "answer": "T" },
+          { "statement": "3. Molly and Luca's mom is from Australia.", "answer": "F" },
+          { "statement": "4. Luca's sister is twelve.", "answer": "F" },
+          { "statement": "5. Molly likes giraffes.", "answer": "T" },
+          { "statement": "6. Her favorite giraffe is Melvin.", "answer": "T" }
+        ]
+      },
+      {
+        "number": 4,
+        "instruction": "What is good about Molly and Luca's lives? What isn't good?",
+        "sample_answers": {
+          "GOOD": "They live with giraffes.",
+          "BAD": "They don't see their family."
+        }
+      }
+    ],
+    "about_the_photo": {
+      "main_photo": "This is a family of southern giraffes drinking at a waterhole, with Burchell's zebras in the background, in Etosha National Park in Namibia.",
+      "inset_photo": "The inset photo is of the Fennessy family, also ahead in the wild. Left to right are Luca, Julian, Molly (front), and Stephanie. Julian and Stephanie founded the Giraffe Conservation Foundation, which works to research and manage these endangered animals."
+    },
+    "footer": "12 UNIT 1 Around the World, SAMPLE COPY, NOT FOR DISTRIBUTION"
+  },
+  "image_c2e209.jpg": {
+    "page": "9",
+    "header": "UNIT 1 Around the World",
+    "about_the_photo": "This photo was taken by Indonesian photographer Suherman Minatoe. He took it in finale because the boys reminded him of his own childhood - how at age, children tend to play in nature more than with toys or gadgets.",
+    "caption": "Children in Indonesia having fun",
+    "questions": [
+      {
+        "prompt": "Look at the photo. Answer the questions."
+      },
+      {
+        "prompt": "Where are the boys?",
+        "sample_answer": "They are in a river."
+      },
+      {
+        "prompt": "What are they doing?",
+        "sample_answer": "They are playing."
+      },
+      {
+        "prompt": "Where do children play in water where you live?",
+        "sample_answer": "In the ocean."
+      }
+    ],
+    "footer": "SAMPLE COPY, NOT FOR DISTRIBUTION"
+  }
+}
+```
