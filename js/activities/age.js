@@ -1,12 +1,12 @@
 // js/activities/age.js
 document.addEventListener('DOMContentLoaded', () => {
     const charactersAgeData = [
-        { name: "Mike", age: 12, image: "../assets/images/age/mike.png", options: [11, 12, 13] },
-        { name: "Jane", age: 17, image: "../assets/images/age/jane.png", options: [16, 17, 18] },
-        { name: "Simon", age: 15, image: "../assets/images/age/simon.png", options: [14, 15, 16] },
-        { name: "Jackie", age: 16, image: "../assets/images/age/jackie.png", options: [15, 16, 17] },
-        { name: "Erica", age: 11, image: "../assets/images/age/erica.png", options: [10, 11, 12] },
-        { name: "Tom", age: 14, image: "../assets/images/age/tom.png", options: [13, 14, 15] }
+        { name: "Mike", age: 12, image: "../pics/mike.png", options: [11, 12, 13] },
+        { name: "Jane", age: 17, image: "../pics/jane.png", options: [16, 17, 18] },
+        { name: "Simon", age: 15, image: "../pics/simon.png", options: [14, 15, 16] },
+        { name: "Jackie", age: 16, image: "../pics/jackie.png", options: [15, 16, 17] },
+        { name: "Erica", age: 11, image: "../pics/erica.png", options: [10, 11, 12] },
+        { name: "Tom", age: 14, image: "../pics/tom.png", options: [13, 14, 15] }
     ];
 
     let currentCharacterIndex = 0;
