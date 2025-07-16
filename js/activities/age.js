@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function displayQuestion() {
         if (currentCharacterIndex < charactersAgeData.length) {
             const character = charactersAgeData[currentCharacterIndex];
-            questionTextEl.textContent = `How old is ${character.name}?`;
+            questionTextEl.textContent = `Hi Ítalo! I'm ${character.name}. Can you guess how old I am?`;
             characterImageEl.src = character.image;
             characterImageEl.alt = character.name;
             
@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', () => {
             characterImageEl.src = PLACEHOLDER_IMAGE_PATH;
             characterImageEl.alt = "Activity Complete";
             ageOptionsAreaEl.innerHTML = '';
-            feedbackAreaEl.textContent = 'Well done! You finished the Age activity.';
+            feedbackAreaEl.textContent = 'Well done, Ítalo! You finished the Age activity.';
             feedbackAreaEl.className = 'feedback-correct visible';
             nextQuestionBtn.classList.add('hidden');
         }
@@ -89,11 +89,11 @@ document.addEventListener('DOMContentLoaded', () => {
         ageOptionsAreaEl.querySelectorAll('button').forEach(btn => btn.disabled = true); // Disable options
 
         if (selectedAge === correctAge) {
-            feedbackAreaEl.textContent = 'Correct!';
+            feedbackAreaEl.textContent = `That's right, Ítalo! I am ${correctAge}.`;
             feedbackAreaEl.className = 'feedback-correct visible';
             playSound(correctSound);
         } else {
-            feedbackAreaEl.textContent = `Not quite. ${characterName} is ${correctAge}.`;
+            feedbackAreaEl.textContent = `Almost, Ítalo! I'm actually ${correctAge}.`;
             feedbackAreaEl.className = 'feedback-incorrect visible';
             playSound(incorrectSound);
         }
